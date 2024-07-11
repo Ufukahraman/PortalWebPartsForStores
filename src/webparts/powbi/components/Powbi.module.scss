@@ -1,0 +1,228 @@
+
+
+.table3 {
+  width: 300px;
+  border-collapse: collapse;
+  background-color: #fff; 
+  margin-top: 10px;
+  border-radius: 10px; 
+  overflow: hidden;
+  table-layout: fixed; /* Tablonun genişliğini içerik üzerinden değil, genel genişliğe göre ayarlar */
+}
+.table3 td { 
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  width: auto; /* Hücrelerin genişliği eşit olarak ayarlanacak */ 
+  color: black; 
+  font: Lighter 20px Segoe UI;   
+}
+
+.table3 th {
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #f2f2f2; 
+  text-align: center;  
+  color: white; 
+  font: bolder 20px Segoe UI;    
+  background-color: purple;
+}
+
+
+.table2 {
+  width: 1400px;
+  border-collapse: collapse;
+  background-color: #fff; 
+  margin-top: 10px;
+  border-radius: 10px; 
+  overflow: hidden;
+  table-layout: fixed; /* Tablonun genişliğini içerik üzerinden değil, genel genişliğe göre ayarlar */
+}
+
+.table2 td { 
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  width: auto; /* Hücrelerin genişliği eşit olarak ayarlanacak */ 
+  color: black; 
+  font: Lighter 20px Segoe UI;   
+}
+
+.table2 th {
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #f2f2f2; 
+  text-align: center;  
+  color: white; 
+  font: bolder 20px Segoe UI;    
+  background-color: purple;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: transparent;   
+  margin: 0 auto; 
+  margin-top: 10px; 
+  overflow: hidden;
+}
+
+
+
+
+.usercontainer{
+  height: 100%;  
+  width: 352px;   
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  background: transparent;     
+  border-radius: 5px; 
+}
+
+/* .usercontainer2{  
+  height: 100%; 
+  width: 352px;   
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  color: white;
+  background: purple; 
+  font: Lighter 25px Segoe UI;   
+  border-radius: 5px;
+
+  text-align: center;
+} */
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(203, 68, 189, 0.3);
+  margin: 20px 0; 
+  border-radius: 5px; 
+}
+
+.header {
+  width: 352px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: lighter;   
+  color: purple;
+  margin: 0;
+  padding: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+.usercontainer3{  
+  height: 100%; 
+  width: 352px;   
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  color: rgb(166, 24, 166);   
+  font: Lighter 25px Segoe UI;   
+  border-radius: 5px;
+  background: transparent;
+  text-align: center;
+}
+.usercontainer4{  
+  height: 100%; 
+  width: 352px;   
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  color: black ;
+  font: Lighter 15px Segoe UI;   
+  background: white; 
+  text-align: center; 
+}
+
+
+.card {
+  width: 90%;  
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;   
+  text-align: center; 
+  cursor: pointer;
+  border: none;
+}
+
+.card-header {
+  color: black; 
+  font: bolder 15px Segoe UI;     
+  margin-bottom: 5px; 
+}
+
+.card-content { 
+  color: rgb(166, 24, 166);   
+  font: Lighter 30px Segoe UI;     
+  line-height: 1.6;
+}
+
+.card-footer {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.card:hover{
+  background-color: rgb(217, 173, 217);
+
+}
+
+
+
+/* $card2-background: #f9f9f9; */
+$card2-border: #ddd;
+$icon-background: #ffeb3b;
+$icon-color: #333;
+$font-color: #333;
+$font-family: Arial, sans-serif;
+$card2-padding: 20px;
+$icon-size: 40px;
+
+
+.card2 {
+  display: flex; 
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid $card2-border;
+  border-radius: 8px;
+  padding: $card2-padding;
+  width: 280px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;  
+}
+
+.icon {
+  background-color: $icon-background;
+  color: $icon-color;
+  font-size: $icon-size;
+  width: $icon-size;
+  height: $icon-size;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  color: $font-color;
+  font-family: $font-family;
+
+  .name {
+    font-size: 1.2em;
+    font-weight: bold;
+  } 
+
+  .department, .title {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.2); /* Resmi %20 büyütür */
+  }
+}

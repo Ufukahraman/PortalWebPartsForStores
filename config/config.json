@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/news/NewsWebPart.js",
+          "manifest": "./src/webparts/news/NewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "powbi-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/powbi/PowbiWebPart.js",
+          "manifest": "./src/webparts/powbi/PowbiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NewsWebPartStrings": "lib/webparts/news/loc/{locale}.js",
+    "PowbiWebPartStrings": "lib/webparts/powbi/loc/{locale}.js"
+  }
+}
